@@ -104,15 +104,15 @@ fun View.showKeyboard() {
  * Try to hide the keyboard and returns whether it worked
  * https://stackoverflow.com/questions/1109022/close-hide-the-android-soft-keyboard
  */
-fun View.hideKeyboard(): Boolean {
-    try {
-        val inputMethodManager =
-            context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        return inputMethodManager.hideSoftInputFromWindow(windowToken, 0)
-    } catch (ignored: RuntimeException) {
+fun View.hideKeyboard() {
+    val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+
+    windowToken?.let {
+        imm.hideSoftInputFromWindow(
+            it,
+            InputMethodManager.HIDE_NOT_ALWAYS
+        )
     }
-    this.clearFocus()
-    return false
 }
 
 /**
