@@ -42,7 +42,7 @@ Get Started
 Compatibility
 ---
 
- * **Kotlin** : 1.3.61
+ * **Kotlin** : 1.3.21
  * **Minimum Android SDK** : 23 or later
  * **Compile Android SDK** : 29 or later
  
