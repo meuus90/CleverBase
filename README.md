@@ -7,15 +7,6 @@ Get Started
 ---
 
 1. Add these in your root build.gradle:
-    
-```
-    buildscript {
-        dependencies {
-            classpath com.android.tools.build:gradle:3.3.1
-        }
-    }
-```    
-... 
 ```
     allprojects {
         repositories {
