@@ -29,7 +29,7 @@ Get Started
     (Please replace x.y.z with the latest version numbers: [![](https://jitpack.io/v/meuus90/CleverBase.svg)](https://jitpack.io/#meuus90/CleverBase) )
 ```
     dependencies {
-        implementation 'com.github.meuus90/CleverBase:x.y.z'
+        implementation 'com.github.meuus90:CleverBase:x.y.z'
     }
 ```
 3. Add compileOptions inside **android{}** on your app build.gradle
