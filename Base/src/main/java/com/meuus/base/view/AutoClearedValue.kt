@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.network.base.view
+package com.meuus.base.view
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

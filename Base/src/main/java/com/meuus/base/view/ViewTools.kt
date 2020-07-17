@@ -1,4 +1,4 @@
-package com.bluewhale.base.view.extension
+package com.meuus.base.view
 
 import android.content.ClipData
 import android.content.ClipboardManager

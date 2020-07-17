@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.network.base.view
+package com.meuus.base.view
 
 import android.animation.*
 import android.content.res.ColorStateList

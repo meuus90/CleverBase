@@ -1,4 +1,4 @@
-package com.network.base.view
+package com.meuus.base.view
 
 import android.content.Context
 import android.view.View

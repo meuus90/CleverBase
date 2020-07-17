@@ -1,4 +1,4 @@
-package com.network.base.view
+package com.meuus.base.view
 
 import android.annotation.TargetApi
 import android.content.Context
